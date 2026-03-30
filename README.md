@@ -2,40 +2,31 @@
 
 Extract structured data from [my.jobstreet.com](https://my.jobstreet.com) — job listings from JobStreet (my.jobstreet.com, sg.jobstreet.com, id.jobstreet.com, ph.jobstreet.com). Get title, company, salary, location, description, and company profiles.
 
-**[Run on Apify →](https://apify.com/blackfalcondata/jobstreet-scraper)**
+**[JobStreet Scraper â€” MY, SG, ID & PH Job Listings on Apify →](https://apify.com/blackfalcondata/jobstreet-scraper)**
 
 ---
 
 ## Key features
 
-🔍 **Smart search with filters**
 
-Search by keyword, location, and multiple filters. Smart input resolution ensures you always get results.
 
-📄 **Detail enrichment**
+**Search with filters** — Search by keyword and location. Filter by country, sort mode, and more.
 
-Fetch full job descriptions, salary data, employer profiles, and contact information for each listing.
+**Detail enrichment** — Fetch full job descriptions, salary data, employer profiles, contact information for each listing.
 
-🔄 **Incremental mode**
-
-Only get new or changed listings since your last run. Content hash per listing — no duplicates, no re-processing.
-
-⚡ **Compact output for AI agents**
-
-Core-fields-only mode optimized for MCP and AI agent workflows. Description truncation to control output size.
+**Incremental mode** — Only get new or changed listings since your last run. Content hash per listing — no duplicates, no re-processing.
 
 ---
 
 ## Use cases
 
+
+
 **Data pipeline automation**
-Integrate with your ETL pipeline to collect structured listings from my.jobstreet.com on a schedule. Export to CSV, JSON, or directly to your database.
+Integrate with your ETL pipeline to collect structured listings from jobstreet.com on a schedule. Export to CSV, JSON, or directly to your database. Use compact mode to control output size.
 
 **Market research**
-Monitor listings, track trends, and analyze market dynamics with structured, deduplicated data from my.jobstreet.com.
-
-**AI and LLM workflows**
-Use compact mode and description truncation to feed data into AI agents, MCP servers, and LLM pipelines without exceeding token budgets.
+Monitor listings, track trends, and analyze market dynamics with structured, deduplicated data from jobstreet.com.
 
 ---
 
@@ -98,15 +89,11 @@ Each listing gets a content hash. On subsequent runs, only new or changed listin
 
 ## Related products by Black Falcon Data
 
-| Product | Description |
-|:--------|:------------|
-| [StepStone Jobs API](https://github.com/BlackFalconData-org/stepstone-jobs-api) | Job listings from 18 European portals |
-| [Company Jobs Tracker](https://github.com/BlackFalconData-org/company-jobs-tracker-api) | Track new/removed jobs per company |
-| [Indeed Jobs Feed](https://github.com/BlackFalconData-org/indeed-jobs-feed) | Indeed job listings with salary data |
-| [Glassdoor Jobs Feed](https://github.com/BlackFalconData-org/glassdoor-jobs-feed) | Glassdoor listings with company ratings |
-| [Arbeitsagentur Jobs Feed](https://github.com/BlackFalconData-org/arbeitsagentur-jobs-feed) | Germany's federal job portal (1M+ listings) |
-| [Naukri Jobs Feed](https://github.com/BlackFalconData-org/naukri-jobs-feed) | India's largest job portal |
-| [Bilbasen Scraper](https://github.com/BlackFalconData-org/bilbasen-scraper) | Denmark's largest car marketplace |
+
+
+- [StepStone Scraper](https://github.com/BlackFalconData-org/stepstone-scraper) — Job listings from 18 European portals
+- [Indeed Job Scraper](https://github.com/BlackFalconData-org/indeed-job-scraper) — Indeed job listings with salary data
+- [Glassdoor Job Scraper](https://github.com/BlackFalconData-org/glassdoor-job-scraper) — Glassdoor listings with company ratings
 
 ---
 

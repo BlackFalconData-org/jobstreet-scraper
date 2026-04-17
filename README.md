@@ -10,6 +10,7 @@ Extract structured data from [my.jobstreet.com](https://my.jobstreet.com) — jo
 
 
 
+
 **Search with filters** — Search by keyword and location. Filter by country, sort mode, and more.
 
 **Detail enrichment** — Fetch full job descriptions, salary data, employer profiles, contact information for each listing.
@@ -19,6 +20,7 @@ Extract structured data from [my.jobstreet.com](https://my.jobstreet.com) — jo
 ---
 
 ## Use cases
+
 
 
 
@@ -88,6 +90,7 @@ Each listing gets a content hash. On subsequent runs, only new or changed listin
 ---
 
 ## Related products by Black Falcon Data
+
 
 
 
